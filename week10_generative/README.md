@@ -1,4 +1,5 @@
 ### Materials
+* Our slides - https://disk.yandex.ru/i/nyFhLWk0F9y9hw
 * Russian: [autoencoders](https://yadi.sk/i/ACgqdyqi3GisV5), [Generative adversarial networks](https://yadi.sk/i/I1WBh0TM3GUoky), [Advanced theory on GANs](https://yadi.sk/i/Gi-8h2Ph3T87ep) [advanced theory on VAE](https://yadi.sk/i/iMCBfyd33GYjZc)
 * English: autoencoders (9 short videos):[I](https://www.youtube.com/watch?v=FzS3tMl4Nsc),[II](https://www.youtube.com/watch?v=xTU79Zs4XKY),[III](https://www.youtube.com/watch?v=6DO_jVbDP3I),[IV](https://www.youtube.com/watch?v=xq-I0Rl8mt0),[V](https://www.youtube.com/watch?v=5rLgoM2Pkso), [VI](https://www.youtube.com/watch?v=t2NQ_c5BFOc),[VII](https://www.youtube.com/watch?v=79sYlJ8Cvlc),[VIII](https://www.youtube.com/watch?v=z5ZYm_wJ37c),[IX](https://www.youtube.com/watch?v=Oq38pINmddk). [Generative adversarial networks](https://www.youtube.com/watch?v=HN9NRhm9waY)
 
@@ -6,16 +7,25 @@
 ### Practice & homework
 
 The main assignment is implementing a variational autoencoder:
-- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yandexdataschool/Practical_DL/blob/fall24/week09_generative/homework-vae.ipynb)
+- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yandexdataschool/Practical_DL/blob/fall25/week10_generative/homework-vae.ipynb)
 
-There are also demos for using pre-trained diffusion, but they are not assignments - just demos. Here they are:
-- Basics [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/huggingface/notebooks/blob/main/diffusers/stable_diffusion.ipynb)
-- Inpainting [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/huggingface/notebooks/blob/main/diffusers/in_painting_with_stable_diffusion_using_diffusers.ipynb)
+## On Gumbel-Softmax
 
+Minimal gumbel-softmax notebook from the '25 class - [click here](https://colab.research.google.com/drive/16QeXwIEgYohju7lkJs55tqRhlD6wEGRO?usp=sharing
+).
+
+In-depth blog post from 2016 - https://blog.evjang.com/2016/11/tutorial-categorical-variational.html
+
+Proof for why gumbel-max trick matches softmax probabilities
+https://lips.cs.princeton.edu/the-gumbel-max-trick-for-discrete-distributions/
+
+## Mentioned open-source autoregressive models over VAE
+
+https://github.com/yandex-research/switti/blob/master/inference_example.ipynb
 
 ## GAN materials
 
-1d GAN [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yandexdataschool/Practical_DL/blob/fall22/week09_generative/simple_1d_gan_pytorch.ipynb)
+1d GAN [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yandexdataschool/Practical_DL/blob/fall25/week10_generative/simple_1d_gan_pytorch.ipynb)
 
 * Pix2Pix online demo (conditional adversarial networks) - [pix2pix](https://affinelayer.com/pixsrv/)
 * Articles: [Original](https://arxiv.org/abs/1406.2661), [Energy-Based](https://arxiv.org/abs/1609.03126), [Least Squares](https://arxiv.org/abs/1611.04076), [Wasserstein](https://arxiv.org/abs/1701.07875), etc.
